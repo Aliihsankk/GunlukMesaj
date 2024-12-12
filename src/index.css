@@ -1,0 +1,41 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    margin-bottom: 20px;
+  }
+
+  nav button {
+    margin-right: 10px;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .fade-effect {
+    animation: fadeInOut 10s infinite;
+  }
+
+  @keyframes fadeInOut {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
